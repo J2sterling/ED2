@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  height: 100vh; /* Asegura que el body ocupe el 100% de la altura de la pantalla */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('./assets/4808799.jpg'); /* Coloca la imagen de fondo */
+  background-size: cover; /* Hace que la imagen cubra todo el fondo */
+  background-position: center; /* Centra la imagen */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+  background-attachment: fixed; /* Hace que la imagen permanezca fija al hacer scroll */
+  font-family: 'Press Start 2P', cursive; /* Fuente retro para el estilo Pokémon */
+  color: black;
+}
+
+.pokemon-container {
+  background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco con opacidad */
+  padding: 20px;
+  border: 5px solid #3b4cca; /* Azul clásico de Pokémon */
+  border-radius: 15px;
+  text-align: center;
+  width: 300px;
+  box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.2); /* Sombra para resaltar el contenedor */
+}
+
+.pokemon-grid h3 {
+  text-transform: uppercase;
+  color: #2a75bb; /* Azul Pokémon */
+}
+
+.pokemon-grid img {
+  width: 150px;
+  height: auto;
+  margin: 10px 0;
+}
+
+.pokemon-grid p {
+  font-size: 14px;
+  color: #3b4cca; /* Mismo azul de la Pokébola */
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #ff0000; /* Rojo como la Pokébola */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: 'Press Start 2P', cursive;
+}
+
+button:hover {
+  background-color: #d40000; /* Un rojo más oscuro al pasar sobre el botón */
+}
+
+.pokemon-title {
+  font-size: 2.5rem;
+  color: #2a75bb; /* Azul Pokémon para el título */
+  text-shadow: 3px 3px #ffcb05; /* Sombras amarillas para dar efecto Pokémon */
+  font-weight: bold;
+}
+

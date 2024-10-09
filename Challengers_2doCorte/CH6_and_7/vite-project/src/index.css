@@ -1,0 +1,84 @@
+/* Aplicar un fondo degradado a toda la página */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background: linear-gradient(135deg, #004d00, #006600, #008000);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* Estilo para el contenedor principal */
+.container {
+  background: linear-gradient(135deg, #004d00, #006600);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  max-width: 500px;
+  width: 100%;
+  color: #fff;
+}
+
+/* Título con un degradado en el texto */
+h1 {
+  font-size: 2.5em;
+  background: -webkit-linear-gradient(#00b300, #00ff00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 20px;
+}
+
+/* Botón con un fondo degradado */
+button {
+  background: linear-gradient(135deg, #006600, #00b300);
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+/* Efecto hover en el botón */
+button:hover {
+  background: linear-gradient(135deg, #003300, #004d00);
+}
+
+/* Degradado en los textos */
+h3 {
+  color: #ffffff;
+  background: linear-gradient(135deg, #00ff00, #00b300);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Estilo para los mensajes de carga */
+h2 {
+  color: #f4f4f4;
+  background: linear-gradient(135deg, #00ff00, #00b300);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Para la lista de items */
+ol {
+  text-align: left;
+  padding-left: 20px;
+  color: white;
+}
+
+/* Para los elementos de la lista */
+li {
+  font-size: 1.2em;
+  background: -webkit-linear-gradient(#00b300, #00ff00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 10px 0;
+}
+

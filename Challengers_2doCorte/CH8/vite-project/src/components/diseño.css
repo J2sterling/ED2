@@ -1,0 +1,58 @@
+/* Estilos globales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Estilo para el contenedor principal */
+h1 {
+    color: #333;
+    font-size: 24px;
+    text-align: center;
+}
+
+hr {
+    margin: 20px 0;
+    border: none;
+    height: 2px;
+    background-color: #333;
+}
+
+/* Estilos para los botones */
+button.btn {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+    transition: background-color 0.3s ease;
+}
+
+button.btn:hover {
+    background-color: #0056b3;
+}
+
+button.btn:active {
+    background-color: #004085;
+}
+
+/* Alinear los botones al centro */
+button {
+    display: block;
+    margin: 0 auto;
+}
+
+/* Estilos para el componente Small */
+.small-value {
+    color: #ff6347; /* Un color llamativo */
+    font-size: 20px;
+}
